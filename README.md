@@ -1,5 +1,12 @@
 # Domain Adaptive Video Segmentation via Temporal Consistency Regularization
 
+## You will need to setup following repositories to make optical flow generation work:
+https://github.com/NVIDIA/flownet2-pytorch
+https://github.com/NVIDIA/semantic-segmentation/tree/sdcnet
+
+Related issue:
+https://github.com/Dayan-Guan/DA-VSN/issues/1
+
 ### Updates
 - *07/2022*: The code of TPS [ECCV 2022] is available [here](https://github.com/xing0047/TPS). TPS is 3x faster than DA-VSN during training and notably surpasses DA-VSN during testing.
 
