@@ -1,0 +1,320 @@
+{
+  "log": {
+    "desc": null,
+    "value": "./results/dam/log/"
+  },
+  "rec": {
+    "desc": null,
+    "value": false
+  },
+  "val": {
+    "desc": null,
+    "value": true
+  },
+  "gta5": {
+    "desc": null,
+    "value": {
+      "data_dir": "/share_chairilg/data/gta5",
+      "data_list": "./dataset/list/gta5_list.txt",
+      "input_size": [
+        1280,
+        720
+      ]
+    }
+  },
+  "lamb": {
+    "desc": null,
+    "value": 0.4
+  },
+  "note": {
+    "desc": null,
+    "value": "train"
+  },
+  "fixbn": {
+    "desc": null,
+    "value": true
+  },
+  "lambt": {
+    "desc": null,
+    "value": 0.3
+  },
+  "model": {
+    "desc": null,
+    "value": "deeplab"
+  },
+  "power": {
+    "desc": null,
+    "value": 0.9
+  },
+  "round": {
+    "desc": null,
+    "value": 10
+  },
+  "start": {
+    "desc": null,
+    "value": 0
+  },
+  "train": {
+    "desc": null,
+    "value": true
+  },
+  "_wandb": {
+    "desc": null,
+    "value": {
+      "s": {
+        "1": [
+          0
+        ]
+      },
+      "t": {
+        "1": [
+          1,
+          41,
+          55
+        ],
+        "2": [
+          1,
+          41,
+          55
+        ],
+        "3": [
+          1,
+          3,
+          13,
+          16,
+          23
+        ],
+        "4": "3.6.13",
+        "5": "0.13.10",
+        "8": [
+          5
+        ]
+      },
+      "framework": "torch",
+      "start_time": 1690298100.561395,
+      "cli_version": "0.13.10",
+      "is_jupyter_run": false,
+      "python_version": "3.6.13",
+      "is_kaggle_kernel": false
+    }
+  },
+  "epochs": {
+    "desc": null,
+    "value": 30
+  },
+  "mirror": {
+    "desc": null,
+    "value": false
+  },
+  "plabel": {
+    "desc": null,
+    "value": "./plabel/dam/"
+  },
+  "result": {
+    "desc": null,
+    "value": "./results/dam/miou_result/"
+  },
+  "resume": {
+    "desc": null,
+    "value": false
+  },
+  "screen": {
+    "desc": null,
+    "value": false
+  },
+  "source": {
+    "desc": null,
+    "value": "synthia_seq"
+  },
+  "target": {
+    "desc": null,
+    "value": "cityscapes"
+  },
+  "worker": {
+    "desc": null,
+    "value": 4
+  },
+  "cb_prop": {
+    "desc": null,
+    "value": 0.1
+  },
+  "neptune": {
+    "desc": null,
+    "value": false
+  },
+  "synthia": {
+    "desc": null,
+    "value": {
+      "data_dir": "/dataset/SYNTHIA/",
+      "data_list": "./dataset/list/synthia_list.txt",
+      "input_size": [
+        1280,
+        760
+      ]
+    }
+  },
+  "crop_src": {
+    "desc": null,
+    "value": [
+      1280,
+      640
+    ]
+  },
+  "crop_tgt": {
+    "desc": null,
+    "value": [
+      2048,
+      1024
+    ]
+  },
+  "fix_seed": {
+    "desc": null,
+    "value": true
+  },
+  "momentum": {
+    "desc": null,
+    "value": 0.9
+  },
+  "multigpu": {
+    "desc": null,
+    "value": false
+  },
+  "snapshot": {
+    "desc": null,
+    "value": "./results/dam/snapshot/train"
+  },
+  "src_prop": {
+    "desc": null,
+    "value": 1
+  },
+  "val_freq": {
+    "desc": null,
+    "value": 100
+  },
+  "input_src": {
+    "desc": null,
+    "value": 720
+  },
+  "input_tgt": {
+    "desc": null,
+    "value": 720
+  },
+  "num_steps": {
+    "desc": null,
+    "value": 425
+  },
+  "save_freq": {
+    "desc": null,
+    "value": 2000
+  },
+  "scale_max": {
+    "desc": null,
+    "value": 1.2
+  },
+  "scale_min": {
+    "desc": null,
+    "value": 0.8
+  },
+  "thres_inc": {
+    "desc": null,
+    "value": 0
+  },
+  "batch_size": {
+    "desc": null,
+    "value": 2
+  },
+  "cityscapes": {
+    "desc": null,
+    "value": {
+      "data_dir": "/share_chairilg/data/cityscapes/",
+      "data_list": "./dataset/list/cityscapes_train.txt",
+      "input_size": [
+        1024,
+        512
+      ]
+    }
+  },
+  "intra_loss": {
+    "desc": null,
+    "value": false
+  },
+  "num_center": {
+    "desc": null,
+    "value": 10
+  },
+  "pre_filter": {
+    "desc": null,
+    "value": false
+  },
+  "print_freq": {
+    "desc": null,
+    "value": 1
+  },
+  "init_weight": {
+    "desc": null,
+    "value": "/share_chairilg/weights/synthia_accel_source_427_new.pth"
+  },
+  "num_classes": {
+    "desc": null,
+    "value": 12
+  },
+  "round_start": {
+    "desc": null,
+    "value": 0
+  },
+  "synthia_seq": {
+    "desc": null,
+    "value": {
+      "data_dir": "/share_chairilg/data/SYNTHIA-SEQS-04-DAWN",
+      "data_list": "./dataset/list/synthiaseq_list.txt",
+      "input_size": [
+        1280,
+        760
+      ]
+    }
+  },
+  "tensorboard": {
+    "desc": null,
+    "value": false
+  },
+  "lamb_metric1": {
+    "desc": null,
+    "value": 0.2
+  },
+  "lamb_metric2": {
+    "desc": null,
+    "value": 0.2
+  },
+  "restore_from": {
+    "desc": null,
+    "value": "None"
+  },
+  "synthia_flow": {
+    "desc": null,
+    "value": "/share_chairilg/data/estimated_optical_flow_synthia_train"
+  },
+  "weight_decay": {
+    "desc": null,
+    "value": 0.0005
+  },
+  "boundary_loss": {
+    "desc": null,
+    "value": false
+  },
+  "learning_rate": {
+    "desc": null,
+    "value": 0.001
+  },
+  "inversef_weight": {
+    "desc": null,
+    "value": "/share_chairilg/weights/distance_measures_regressor.pth"
+  },
+  "cityscapes_flow_train": {
+    "desc": null,
+    "value": "/share_chairilg/data/estimated_optical_flow_cityscapes_train"
+  },
+  "cityscapes_flow_valid": {
+    "desc": null,
+    "value": "/share_chairilg/data/Estimated_optical_flow_Cityscapes-Seq_val"
+  }
+}
